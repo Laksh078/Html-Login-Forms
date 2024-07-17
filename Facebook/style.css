@@ -1,0 +1,122 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    align-items: center;
+    margin: 0;
+    background-color: RGB(240,242,245);
+}
+.facebook{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: -100px;
+    margin-top: auto;
+    margin-bottom: 172px;
+}
+.facebook p{
+    width: 500px;
+    line-height: 28px;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.facebook img{
+    height: 106px;
+    width: 320.94px;
+    margin: -28px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.content form{
+    border: 1px none ;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 8px;
+}
+.content input{
+    height: 52px;
+    width: 364px;
+    border-radius: 6px;
+    font-size: 17px;
+    margin: 16px;
+    border: 1px solid #ccc;
+    text-indent: 13px;
+    outline: none;
+
+}
+.log-in{
+    background-color: RGB(8,102,255);
+    border: none;
+    border-radius: 6px;
+    width: 370px;
+    height: 48px;
+    margin-left: 16px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.seperator span:nth-child(1){
+    width: 90%;
+    height: 1px;
+    background: #ccc;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forgot-password{
+    margin-bottom: 23px;
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.create{
+    margin-top: 23px;
+    background-color: #42b72a;
+    border: none;
+    font-size: 17px;
+    border-radius: 6px;
+    padding: 0 16px;
+    color: #fff;
+    font-weight: 700;
+    width: 192.61px;
+    height: 54px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23px;
+}
+.content p{
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content p a{
+    color: #000000;
+    font-weight: 600;
+}
+.show{
+    width: 27px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 10px;
+}
